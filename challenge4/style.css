@@ -12,24 +12,24 @@ body {
   flex-direction: column;
 }
 .movie-card {
+  overflow: hidden;
 }
 .movie-image {
   width: 45vh;
   height: 45vh;
   z-index: -1;
   object-fit: cover;
-  object-position: top;
 }
 
 p {
   color: white;
 }
 .movie-details-container {
+  position: relative;
 }
 .descriptions {
-  float: left;
-  position: relative;
-  top: -110px;
+  position: absolute;
+  bottom: 0;
   padding-left: 10px;
 }
 
@@ -41,7 +41,7 @@ p {
   position: absolute;
   height: 40vh;
   width: 45vh;
-  top: 205px;
+  bottom: 0;
   background: rgb(0, 0, 0);
   background: linear-gradient(
     0deg,
