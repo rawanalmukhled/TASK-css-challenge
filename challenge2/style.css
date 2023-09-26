@@ -1,6 +1,9 @@
 .page {
   background-image: url(../assets/pokemon-bg.jpg);
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .whitebox {
   background-color: white;
@@ -11,10 +14,4 @@
   justify-content: center;
   flex-direction: column;
   box-shadow: 10px 10px lightblue;
-}
-
-.page {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
